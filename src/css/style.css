@@ -6,4 +6,30 @@
 
 * {
     font-family: 'Nunito', sans-serif;
+    border: .5px dashed tomato;
+}
+
+#logo {
+    margin-left: 10%;
+    margin-right: 50%;
+}
+
+.container-fluid > .row {
+    height: 90vh;
+    margin: 5% 10%;
+    background-color: tomato;
+}
+
+
+#rowFoto {
+    height: 30%;
+}
+
+#rowFoto > img{
+    
+}
+
+#rowDatosBasicos {
+    height: 60%;
+    background-color: aquamarine;
 }
