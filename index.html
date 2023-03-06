@@ -15,11 +15,66 @@
 </head>
 
 <body>
-    <nav class="navbar bg-light">
+    <!-- Begin NavBar -->
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">DevManu</span>
+            <a class="navbar-brand" id="logo" href="#">DevManu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre Mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contactarme</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <!-- End NavBar -->
+
+    <!-- Begin Container Principal -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3" >
+                <div class="row" id="rowFoto">
+                    <img src="./src/img/foto_perfil.png" alt="Foto Perfil">
+                </div>
+                <div class="row" id="rowDatosBasicos">
+                    <p>Datos basicos</p>
+                </div>
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Proyectos</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1>Contactarme</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Javascript Propios -->
+    <script src="./src/js/core.js"></script>
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
